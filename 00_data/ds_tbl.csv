@@ -1,0 +1,175 @@
+title,skill,count
+Data Analyst,advanced calculus,57711
+Data Analyst,business analysis,68202
+Data Analyst,business intelligence,41236
+Data Analyst,c,21793
+Data Analyst,c++,28321
+Data Analyst,cloud computing,38693
+Data Analyst,data analysis,179214
+Data Analyst,data mining,27709
+Data Analyst,data visualization,20546
+Data Analyst,data warehousing,46711
+Data Analyst,databases,92812
+Data Analyst,financial analysis,27938
+Data Analyst,html,34582
+Data Analyst,java,40900
+Data Analyst,javascript,25343
+Data Analyst,machine learning,53525
+Data Analyst,mathematics,149278
+Data Analyst,matlab,26649
+Data Analyst,microsoft excel,339065
+Data Analyst,microsoft office,171822
+Data Analyst,microsoft powerpoint,173256
+Data Analyst,microsoft word,169588
+Data Analyst,python,135510
+Data Analyst,r,54720
+Data Analyst,sas,25217
+Data Analyst,software development,136791
+Data Analyst,spss,25102
+Data Analyst,sql,226736
+Data Analyst,statistics,39771
+Data Analyst,tableau,34277
+Data Analyst,time management,28549
+Data Analyst,writing,63678
+Data Engineer,amazon web services (aws),5156
+Data Engineer,apache spark,6639
+Data Engineer,big data,10940
+Data Engineer,business analysis,5975
+Data Engineer,business intelligence,9777
+Data Engineer,c,10450
+Data Engineer,c#,6314
+Data Engineer,c++,12565
+Data Engineer,cloud computing,31002
+Data Engineer,css,5431
+Data Engineer,data analysis,16997
+Data Engineer,data mining,5910
+Data Engineer,data modeling,5113
+Data Engineer,data warehousing,19511
+Data Engineer,databases,20485
+Data Engineer,etl,10047
+Data Engineer,git,5487
+Data Engineer,hadoop,11669
+Data Engineer,hive,4906
+Data Engineer,html,10513
+Data Engineer,integration,4735
+Data Engineer,java,24985
+Data Engineer,javascript,13651
+Data Engineer,linux,13033
+Data Engineer,machine learning,20757
+Data Engineer,mathematics,25874
+Data Engineer,matlab,7288
+Data Engineer,microsoft excel,24517
+Data Engineer,microsoft office,16522
+Data Engineer,microsoft powerpoint,9798
+Data Engineer,microsoft word,12159
+Data Engineer,python,56299
+Data Engineer,r,8774
+Data Engineer,scala,5545
+Data Engineer,shell scripting,4921
+Data Engineer,software development,44282
+Data Engineer,spark,8111
+Data Engineer,sql,76997
+Data Engineer,statistics,3870
+Data Engineer,tableau,5206
+Data Engineer,writing,9235
+Data Scientist,advanced calculus,9769
+Data Scientist,apache spark,6539
+Data Scientist,artificial intelligence,8537
+Data Scientist,big data,17410
+Data Scientist,business analysis,8933
+Data Scientist,business intelligence,10716
+Data Scientist,c,20312
+Data Scientist,c#,6897
+Data Scientist,c++,28670
+Data Scientist,cloud computing,27011
+Data Scientist,css,6276
+Data Scientist,data analysis,62084
+Data Scientist,data mining,28500
+Data Scientist,data modeling,5463
+Data Scientist,data science,26662
+Data Scientist,data visualization,13238
+Data Scientist,databases,16036
+Data Scientist,deep learning,12207
+Data Scientist,git,7576
+Data Scientist,hadoop,11442
+Data Scientist,html,13409
+Data Scientist,java,33234
+Data Scientist,javascript,15490
+Data Scientist,latex,15408
+Data Scientist,linux,15184
+Data Scientist,machine learning,79871
+Data Scientist,mathematical modeling,8079
+Data Scientist,mathematics,105294
+Data Scientist,matlab,33151
+Data Scientist,microsoft excel,60279
+Data Scientist,microsoft office,32565
+Data Scientist,microsoft powerpoint,28640
+Data Scientist,microsoft word,24857
+Data Scientist,natural language processing,11389
+Data Scientist,python,160910
+Data Scientist,r,53747
+Data Scientist,sas,18387
+Data Scientist,software development,70540
+Data Scientist,spark,8900
+Data Scientist,spss,8443
+Data Scientist,sql,76772
+Data Scientist,statistical data analysis,8420
+Data Scientist,statistical modeling,12702
+Data Scientist,statistics,35820
+Data Scientist,tableau,12748
+Data Scientist,tensorflow,5674
+Data Scientist,writing,10973
+Machine Learning Engineer,amazon web services (aws),981
+Machine Learning Engineer,apache spark,964
+Machine Learning Engineer,artificial intelligence,3016
+Machine Learning Engineer,big data,1626
+Machine Learning Engineer,c,5149
+Machine Learning Engineer,c#,1604
+Machine Learning Engineer,c++,7209
+Machine Learning Engineer,cloud computing,4148
+Machine Learning Engineer,css,1288
+Machine Learning Engineer,data analysis,5167
+Machine Learning Engineer,data mining,2463
+Machine Learning Engineer,data science,2929
+Machine Learning Engineer,data visualization,1056
+Machine Learning Engineer,databases,1395
+Machine Learning Engineer,deep learning,4313
+Machine Learning Engineer,django,621
+Machine Learning Engineer,docker,680
+Machine Learning Engineer,git,2096
+Machine Learning Engineer,hadoop,1431
+Machine Learning Engineer,html,2748
+Machine Learning Engineer,html5,680
+Machine Learning Engineer,java,7492
+Machine Learning Engineer,javascript,3704
+Machine Learning Engineer,jupyter notebook,1779
+Machine Learning Engineer,keras,1394
+Machine Learning Engineer,latex,1797
+Machine Learning Engineer,linux,3548
+Machine Learning Engineer,machine learning,13039
+Machine Learning Engineer,mathematical modeling,575
+Machine Learning Engineer,mathematics,14277
+Machine Learning Engineer,matlab,4952
+Machine Learning Engineer,microsoft excel,4310
+Machine Learning Engineer,microsoft office,3172
+Machine Learning Engineer,microsoft powerpoint,1993
+Machine Learning Engineer,microsoft word,2359
+Machine Learning Engineer,mongodb,831
+Machine Learning Engineer,natural language processing,3415
+Machine Learning Engineer,neural networks,1205
+Machine Learning Engineer,node.js,653
+Machine Learning Engineer,numpy,577
+Machine Learning Engineer,opencv,630
+Machine Learning Engineer,pandas,635
+Machine Learning Engineer,python,27006
+Machine Learning Engineer,pytorch,1057
+Machine Learning Engineer,r,3473
+Machine Learning Engineer,scala,836
+Machine Learning Engineer,scikit-learn,782
+Machine Learning Engineer,software development,13025
+Machine Learning Engineer,software engineering,1061
+Machine Learning Engineer,spark,1239
+Machine Learning Engineer,sql,7506
+Machine Learning Engineer,statistics,2415
+Machine Learning Engineer,tensorflow,2755
+Machine Learning Engineer,writing,896

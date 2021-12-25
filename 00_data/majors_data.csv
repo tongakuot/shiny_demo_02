@@ -1,0 +1,51 @@
+,name,value,title
+0,computer science,17769,data scientist
+1,mathematics,6842,data scientist
+2,data science,6666,data scientist
+3,business administration,6537,data scientist
+4,statistics,6141,data scientist
+5,physics,5563,data scientist
+6,economics,4483,data scientist
+7,mechanical engineering,3009,data scientist
+8,computer engineering,2780,data scientist
+9,information technology,2717,data scientist
+0,computer science,14130,data engineer
+1,information technology,3713,data engineer
+2,business administration,3416,data engineer
+3,computer engineering,2580,data engineer
+4,mechanical engineering,1420,data engineer
+5,electrical and electronics engineering,1364,data engineer
+6,data science,1358,data engineer
+7,mathematics,1356,data engineer
+8,computer software engineering,1316,data engineer
+9,"electrical, electronics and communications engineering",1040,data engineer
+0,business administration,36243,data analyst
+1,computer science,24392,data analyst
+2,economics,12904,data analyst
+3,information technology,11307,data analyst
+4,statistics,8111,data analyst
+5,mathematics,8060,data analyst
+6,"business administration and management, general",6354,data analyst
+7,mechanical engineering,4891,data analyst
+8,data science,4646,data analyst
+9,accounting,4381,data analyst
+0,computer science,5313,machine learning engineer
+1,computer engineering,936,machine learning engineer
+2,data science,623,machine learning engineer
+3,electrical and electronics engineering,580,machine learning engineer
+4,mathematics,579,machine learning engineer
+5,artificial intelligence,527,machine learning engineer
+6,electrical engineering,525,machine learning engineer
+7,information technology,524,machine learning engineer
+8,physics,408,machine learning engineer
+9,mechanical engineering,395,machine learning engineer
+0,statistics,5744,statistician
+1,business administration,2280,statistician
+2,mathematics,1945,statistician
+3,economics,1534,statistician
+4,biostatistics,1161,statistician
+5,mathematics and statistics,669,statistician
+6,applied statistics,661,statistician
+7,applied mathematics,444,statistician
+8,psychology,374,statistician
+9,computer science,325,statistician

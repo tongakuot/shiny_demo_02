@@ -1,0 +1,138 @@
+---
+title: "Programming Languages for Data Science"
+author: "Alier Reng"
+date: "12/22/2021"
+output: html_document
+---
+
+## Global Settings & Project Libraries
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo    = TRUE,
+  message = FALSE,
+  warning = FALSE)
+
+# Libraries
+library(tidyverse)
+library(vroom)
+library(bbplot)
+```
+
+## Dataset Transformation
+
+```{r}
+# Import the data
+path <- "https://media.githubusercontent.com/media/khuyentran1401/dataset/master/data_science_market/all_skills.csv"
+
+data_raw <- vroom(path, show_col_types = FALSE)
+
+# Inspect the first 15 rows
+data_raw %>% 
+  
+  slice_head(n = 15)
+```
+
+## Remove unwanted column
+ 
+```{r}
+# Subset the data
+ds_skills_data_tbl <- 
+  
+  # Raw data
+  data_raw %>% 
+  
+  # Select desired columns and rearrange them
+  select(Title, skill, count) %>% 
+  
+  # Modify column names
+  set_names(names(.) %>% str_to_lower()) %>% 
+  
+  # Tidy skill column values
+  mutate(
+    skill = case_when(
+      str_detect(skill, 'sql')                                  ~ 'sql',
+      str_detect(skill, 'database')                             ~ 'databases',
+      str_detect(skill, 'etl')                                  ~ 'etl',
+      skill %in% c('phython', 'python (programming language)')  ~ 'python',
+      str_detect(skill, 'excel')                                ~ 'microsoft excel',
+      str_detect(skill, 'cisco')                                ~ 'cisco technologies',
+      skill == 'access'                                         ~ 'microsoft access',
+      skill == 'word'                                           ~ 'microsoft word',
+      skill %in% c('power point', 'powerpoint')                 ~ 'microsoft powerpoint',
+      skill %in% c('natural language processing (nlp)', 'nlp')  ~ 'natural language processing',
+      skill == 'requirements analysis'                          ~ 'requirement analysis',
+      skill == 'sas programming'                                ~ 'sas',
+      skill == 'jupyter'                                        ~ 'jupyter notebook',
+      skill == 'artificial intelligence (ai)'                   ~ 'artificial intelligence',
+      skill == 'cloud'                                          ~ 'cloud computing',
+      str_detect(skill, 'data structure')                       ~ 'data structures',
+      str_detect(skill, 'datawarehouse')                        ~ 'data warehousing',
+      skill == 'model'                                          ~ 'modeling',
+      str_detect(skill, 'visio')                                ~ 'microsoft visio',
+      skill == 'networking skills'                              ~ 'networking', 
+      skill == 'pandas (software)'                              ~ 'pandas',
+      TRUE ~ skill)
+  ) %>% 
+  
+  # Group by title, skill, and summarize
+  group_by(
+    title, skill
+  ) %>% 
+  
+  summarize(
+    count   = sum(count),
+    .groups = "drop"
+  ) %>% 
+  
+  # Remove undesired skills
+  filter(
+    skill %in% c("amazon web services (aws)", "apache spark",
+                 "artificial intelligence", "big data", "business analysis",
+                 "business intelligence", "c", "c#", "c++", "cloud computing", 
+                 "css", "data analysis", "data mining", "data science", 
+                 "data modeling", "data visualization", "databases",
+                 "deep learning", "data warehousing", "django", "docker",
+                 "etl", "financial analysis", "git", "hive", "hadoop",
+                 "html5", "html", "java", "jupyter notebook", "javascript",
+                 "integration", "latex", "keras", "linux",  "machine learning",
+                 "mathematical modeling", "mathematics", "matlab",
+                 "microsoft excel", "microsoft office", "microsoft powerpoint",
+                 "microsoft word", "mongodb", "natural language processing",
+                 "numpy", "opencv", "node.js", "neural networks", "pandas",
+                 "python", "pytorch", "r", "sas", "scala", "scikit-learn",
+                 "shell scripting", "software development", "spark", "spss",
+                 "software engineering",  "sql", "statistical data analysis",
+                 "statistical modeling", "statistics", "tableau", "tensorflow",
+                 "time management",  "writing", "mathematics", "advanced calculus")
+  ) 
+  
+  
+# Save data as a CSV file
+vroom::vroom_write(ds_skills_data_tbl, 
+                   '../00_data/ds_tbl.csv',
+                   delim = ',')
+```
+ 
+## Major Dataset
+
+```{r}
+# Import majors dataset
+majors_data_tbl <- vroom('../00_data/majors_data.csv') %>% 
+  
+  # Select desired columns
+  select(title, major = name, freq = value) %>% 
+  
+  # Modify major names to wrap around
+  mutate(
+    title = str_to_title(title),
+    major = str_to_title(major)
+  ) %>% 
+  
+  # Sort data by title in ascending order
+  arrange(title)
+
+# Save as a CSV file
+majors_data_tbl %>% vroom_write('../00_data/majors_tbl.csv', delim = ',')
+```
+

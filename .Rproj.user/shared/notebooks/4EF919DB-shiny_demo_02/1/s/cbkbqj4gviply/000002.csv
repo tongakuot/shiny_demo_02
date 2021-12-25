@@ -1,0 +1,11 @@
+"0","# Import the data"
+"0","path <- ""https://media.githubusercontent.com/media/khuyentran1401/dataset/master/data_science_market/all_skills.csv"""
+"0",""
+"0","data_raw <- vroom(path, show_col_types = FALSE)"
+"2","New names:
+* `` -> ...1
+"
+"0","# Inspect the first 15 rows"
+"0","data_raw %>% "
+"0","  "
+"0","  slice_head(n = 15)"

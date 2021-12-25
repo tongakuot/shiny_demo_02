@@ -1,0 +1,14 @@
+name: shiny_demo_02
+title: shiny_demo_02
+username:
+account: areng
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5368744
+bundleId: 5407979
+url: https://areng.shinyapps.io/shiny_demo_02/
+when: 1640401730.48156
+lastSyncTime: 1640401730.48157
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .ipynb_checkpoints/Untitled-checkpoint.ipynb|Untitled.ipynb
